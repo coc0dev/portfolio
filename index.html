@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootcamp Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=devince-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      height: 400px;
+      margin: 5px 0px 20px 0px;
+    }
+
+    .column2 {
+      float: left;
+      width: 20%;
+      height: 300px;
+      margin: 5px 0px 30px 0px;
+    }
+
+    .column3 {
+      float: left;
+      width: 33.33%;
+      height: 300px;
+      margin: 5px 0px 5px 0px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .img1 {
+      float: right;
+      padding: 0px 0px 5px 0px;
+    }
+
+    .img2 {
+      align-content: center;
+      width: auto;
+
+    }
+
+    .clearfix {
+      overflow: auto;
+    }
+
+    body {
+      margin: 20px;
+      font-family: arial, helvetica, sans-serif;
+    }
+
+    .header {
+      text-align: center;
+      color: black;
+      text-decoration: none;
+    }
+
+    .header h1 {
+      font-size: 40px;
+    }
+
+    .p {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    /* this section will style the navbar */
+    .topnav {
+      overflow: hidden;
+      background-color: rgba(255, 255, 255, 0);
+    }
+
+    /* this will style the links in the topnav */
+    .topnav a {
+      margin: 5px;
+      display: inline;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    /* hover over link to change color */
+    .topnav a:hover {
+      color: black;
+      text-shadow: rgba(0, 0, 0, 0.3) 2px 2px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a href="index.html" style="font-size: 40px;">Evan Colondres</a>
+    <a href="#Hospitality">Hospitality Background</a>
+    <a href="#Travel">Travel</a>
+    <a href="#Leatherwork">Leather Work</a>
+    <a href="#Programming">Programming</a>
+  </div>
+  <hr>
+  <div class="img2">
+    <img src="images/corsicacoffee.JPG" style="width: 100%">
+  </div>
+  <hr>
+  <div id="Hospitality" class="header">
+    <h1>Hospitality Background</h1>
+  </div>
+
+  <div class="clearfix">
+    <p class="p"><img class="img1" src="images/little_serrow.jpg">I've spent 15 years working in restaurants, bars and
+      cafes.
+      I've worked almost every position you can in a restaurant. Chef, barista, bartender, host, server, and general
+      manager.
+      After I went to culinary school, I started out cooking in restaurants and did that for many years.
+      I was able to work my way up to sous chef and manage a kitchen.
+      <br>
+      <br>
+      After cooking for a few years I decided to get into coffee.
+      Out of all the jobs that I have worked, I loved being a barista the most.
+      I like the balance between creativity and being social.
+      Although I don't cook professionally anymore, I still love to cook at home and make delicious meals.
+      My favorite things to cook and eat are,
+    <ul style="font-size: 20px;">
+      <li>Pizza</li>
+      <li>Ramen</li>
+      <li>Pasta</li>
+      <li>Anything grilled</li>
+    </ul>
+    </p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="images/barista2.JPG" alt="making espresso" style="width: 100%">
+    </div>
+    <div class="column">
+      <img src="images/barista.jpg" alt="making coffee" style="width: 100%">
+    </div>
+    <div class="column">
+      <img src="images/bread.JPG" alt="sourdough bread" style="width: 100%">
+    </div>
+  </div>
+  <hr>
+  <div id="Travel" class="header">
+    <h1>Travel</h1>
+  </div>
+  <p class="p" style="text-align: center;">I'm sure I am no different than anyone else when it comes to my love for
+    travelling.
+    It is definitely one of my favorite things to do every year, and I consider myself very fortunate to be able to
+    travel.
+    Here are some pictures of some of my favorite places in Paris, Corsica and Tokyo!
+  </p>
+
+  <div class="header">
+    <h2>Paris</h2>
+  </div>
+  <div class="row">
+    <div class="column2">
+      <img src="images/paris_smallest_rue.JPG" alt="open briefcase" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/paris_jardin_lux.JPG" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/paris_duckpond.JPG" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/paris_louvre_night.JPG" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/paris_eiffel_tower.JPG" style="width: 100%">
+    </div>
+  </div>
+
+  <div class="header">
+    <h2>Corsica</h2>
+  </div>
+  <div class="row">
+    <div class="column2">
+      <img src="images/corse_clocher.JPG" alt="open briefcase" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/corse_suze.jpg" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/corse_hilltop.JPG" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/corse_old_church.JPG" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/corse_nonza.JPG" style="width: 100%">
+    </div>
+  </div>
+
+  <div class="header">
+    <h2>Tokyo</h2>
+  </div>
+  <div class="row">
+    <div class="column2">
+      <img src="images/jp_ramen.jpg" alt="open briefcase" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/jp_ramen_bowl.jpg" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/jp_shrine_entrance.jpg" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/jp_shibuya.jpg" style="width: 100%">
+    </div>
+    <div class="column2">
+      <img src="images/jp_small_truck.jpg" style="width: 100%">
+    </div>
+  </div>
+  <hr>
+  <div id="Leatherwork" class="header">
+    <h1>Leather Work</h1>
+  </div>
+
+  <img src="images/bag_shadow.JPG" style="height: auto; width: 100%;">
+
+  <div class="row">
+    <div class="column3">
+      <img src="images/bag_open.JPG" alt="open briefcase" style="width: 100%">
+    </div>
+    <div class="column3">
+      <img src="images/bag_side.JPG" style="width: 100%">
+    </div>
+    <div class="column3">
+      <img src="images/bag_bottom.JPG" style="width: 100%">
+    </div>
+  </div>
+  <p class="p">For the past 7 years I have been working with leather on the side.
+    It brings me so much joy to be able to take something like a simple side of leather and turn
+    it into a wallet or bag.
+    <br>
+    <br>
+    I was first inspired to start making leather goods after a trip to Portland Oregon.
+    The shop I visited had great wallets and accessories that inspired me to try and create one of my own.
+    Since then, I have been able to study abroad with a great leather craftsman in Japan, where I learned to hone my
+    craft.
+  </p>
+  <br>
+  <p class="p">Here I am making the bag above in Japan.</p>
+  <div class="row">
+    <div class="column3">
+      <img src="images/jp_cutting.JPG" alt="open briefcase" style="width: 100%">
+    </div>
+    <div class="column3">
+      <img src="images/jp_edge_finish.JPG" style="width: 100%">
+    </div>
+    <div class="column3">
+      <img src="images/jp_stitching.JPG" style="width: 100%">
+    </div>
+  </div>
+
+  <hr>
+  <div id="Programming" class="header">
+    <h1>Programming</h1>
+  </div>
+  <p class="p" style="text-align: center;">
+    I have been working on some C++ and game development over the past couple of months.
+    Interested in hopefully programming full time with a career change.
+    Excited to start my Coding Temple journey and to keep learning and being creative.</p>
+
+  <hr>
+
+  <div class="topnav" style="text-align: center;">
+    <a href="index.html">Top</a>
+    &#169; Created by Evan Colondres 2021
+  </div>
+
+</body>
+
+</html>
